@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UFT-8">
+    <title>JabTyper</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <header><h1>JabTyper</h1></header>
+    
+
+    <div class="container-main">
+    <div class="container-table">
+    <input type="text" id="nome" placeholder="Nome do Jogador">
+
+    <p class="frase">Digite o mais rápido que conseguir em: </p>
+    <ul class="informacoes">
+        
+        <li><span id="tempo">15</span> segundos</li>
+    </ul>
+
+
+    <textarea id="campo-digitacao" cols="50" rows="10"></textarea> 
+    <ul> 
+        <li><span id="caracteres-digitados">0</span> caracteres</li>  
+        <li><span id="palavras-digitadas">0</span> palavras</li> 
+    </ul> 
+
+    <br> 
+
+    <button id="botao-reiniciar">Reset</button>
+
+    <br>
+    </div>
+
+    
+    <h2>Placar</h2>
+    <table id="tabela-resultado" border="1">
+        <thead>
+            <th>Usuário</th>
+            <th>Num de Palavras</th>
+        </thead>
+    </table>
+   
+    </div>  
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
